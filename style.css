@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #ff6b6d;
+}
+
+
+.pozadina {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    
+}
+
+.lijevo{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    padding: 2rem;
+   
+    
+
+}
+
+.naslov {
+    color: #ffffff;
+    padding: 2rem;
+    margin-top: 10rem;
+    
+}
+
+
+.tekst1{
+color: #ffffff;
+font-size: 15px;
+padding-left: 2rem;
+
+
+}
+
+
+
+.desno{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    padding: 2rem;
+   
+}
+
+.tekst2 {
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    font-size: 20px;
+    background-color: #7f00CF;
+    border-radius: 5px;
+    height: 20%;
+    margin: 1rem;
+    font-size: 15px;
+    padding: 1rem;
+    text-align: center;
+    width: 82.4%
+    
+}
+
+
+.obrazac{
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: 1rem;
+    height: 80%;
+    padding: 2rem;
+    width: 82.4%
+    
+ 
+}
+
+input[type="text"]  {
+    display: flex;
+    flex-direction: column;
+    color: #858381;
+    width: 374.917px;
+    justify-content: space-between;
+    height:35.333px;
+    border: 1px solid #858381;
+    border-radius: 8px;
+    padding: 8px;
+  
+}
+
+input[type="submit"] {
+    display: flex;
+    flex-direction: column;
+    height: 45px;
+    width: 356.167px;
+    background-color: #49cd8b;
+    color:#ffffff; 
+    font-size: 11px;
+    text-align: center;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    padding-left: 7rem;
+    padding-top: 1rem;
+    
+    
+
+}
+
+.text3{
+    color: lightgray;
+    font-size: 10px;
+    padding: 1rem;
+    text-align: center;
+}
+
+span.red{
+    color:red
+}
